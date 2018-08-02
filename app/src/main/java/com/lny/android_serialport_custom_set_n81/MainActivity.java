@@ -115,6 +115,7 @@ public class MainActivity extends Activity {
 
         menu_head = (TextView) findViewById(R.id.menu_head);
         appinfo = (TextView) findViewById(R.id.app_info);
+        appinfo.setVisibility(View.GONE);
         menu_head.setText("欢迎使用安默串口调试工具LNY++");
         appinfo.setMovementMethod(LinkMovementMethod.getInstance());  //其实就这一句是关键
 
