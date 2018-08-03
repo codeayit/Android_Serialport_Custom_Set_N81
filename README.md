@@ -5,7 +5,7 @@
 
 # 完善部分
 
-1.将原 serial_port.c 修改为 serial_port.cpp （.c 因为sdk下载不完整，无法编译出相应abi的.so ）
+1.将原 serial_port.c 修改为 serial_port.cpp （.c 暂无法编译出相应abi的.so ）
 
 2.完善了奇偶校验功能（此处已经请教过原作者，我也只是站在巨人的肩膀上，招了招手）
 
